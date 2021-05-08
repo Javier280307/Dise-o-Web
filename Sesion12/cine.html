@@ -19,7 +19,7 @@
             Middle-> alinear verticalmente en el medio
             Top-> alinear a la parte superior
             Bottom-> alinear a la parte inferior, la predeterminada
-            
+
         */
 
         h2 #img1 {
@@ -34,24 +34,25 @@
             padding-left: 25rem;
         }
     </style>
+
 </head>
 
-<body background="img/oscar 3.jpg">
+<body>
     <div id='Contenedor'>
         <header>
             <h2 style="text-align:center"><em><img id="img1" src="../Sesion12/img/premio.gif" alt="foto de premio"><em
-                        style="color: rgb(236, 236, 245);"> Encuesta de cine: Nominadas al Oscar 2018</em><em><img
+                        style="color: rgb(23, 23, 228);"> Encuesta de cine: Nominadas al Oscar 2018</em><em><img
                             id="img2" src="../Sesion12/img/premio.gif" alt="foto de premio"></em></h2></em>
         </header>
         <form id="formulario1" name="formulario1" method="post" action="data.php">
-            <fieldset style="color: rgb(236, 236, 245);" id="datos_personales">
+            <fieldset id="datos_personales">
                 <legend>Datos personales</legend>
                 <p><label>Nombre: <input type="text" name="nombre"></label></p>
                 <p><label>Apellido <input type="text" name="apellido"></label></p>
                 <p><label>DNI <input type="text" name="DNI"></label></p>
                 <p><label>Edad: <input type="text" name="Edad"></label></p>
                 <form action="../../form-result.php" target="_blank">
-                    <p style="color: rgb(236, 236, 245);">
+                    <p>
                         Sexo:
                         <select name="Sexo">
                             <option></option>
@@ -60,14 +61,14 @@
                         </select>
                     </p>
                 </form>
-                <fieldset style="color: rgb(236, 236, 245);" id="mejor_pelicula">
+                <fieldset id="mejor_pelicula">
                     <legend>Mejor Pelicula</legend>
-                    <input type="radio" name="pelicula" value="11">Película 01<br>
-                    <input type="radio" name="pelicula" value="22">Película 02<br>
-                    <input type="radio" name="pelicula" value="33">Película 03<br>
+                    <input type="radio" name="pelicula" value="11"> Película 01<br>
+                    <input type="radio" name="pelicula" value="22"> Película 02<br>
+                    <input type="radio" name="pelicula" value="33"> Película 03<br>
                 </fieldset>
                 <br>
-                <fieldset style="color: rgb(236, 236, 245);" id="peliculas_no_vistas">
+                <fieldset id="peliculas_no_vistas">
                     <form action="../../form-result.php" target="_blank">
                         <p>
                             Selecciona las películas que no hayas visto:<br>
@@ -79,7 +80,7 @@
                         </p>
                     </form>
                 </fieldset>
-                <fieldset style="color: rgb(236, 236, 245);" id="grupo_argumento">
+                <fieldset id="grupo_argumento">
                     <legend>Argumento de tu película preferida</legend>
                     <textarea id="argumento" name="argumento" rows="14" cols="50"></textarea>
                 </fieldset>
